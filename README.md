@@ -4,7 +4,7 @@ A lightweight javascript plugin for hiding and showing your navigation when scro
 
 ## Basic Usage
 
-1. Include the shyo.css and  shyo.js on your document's `<head>` and `<body>`
+- Include the shyo.css and  shyo.js on your document's `<head>` and `<body>`
 
   ```html
   <head>
@@ -14,13 +14,13 @@ A lightweight javascript plugin for hiding and showing your navigation when scro
   	<script src="shyo.js"></script>
   </body>
   ```
-2. Add the class `shyo` and the id `shyo` to the element you want to hide:
+- Add the class `shyo` and the id `shyo` to the element you want to hide:
 
 ```<header id="shyo" class="main-header shyo" data-scroll="0">```
  
 You may also want to modify the  `data-scroll` to define when de script starts working.
 
-3. Activate the script.
+- Activate the script.
 
 	```css
 	<script>
