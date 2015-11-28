@@ -21,6 +21,14 @@ A lightweight javascript plugin for hiding and showing your navigation when scro
  
  You may also want to modify the  `data-scroll` to define when de script starts working.
 
+ 3. Activate the script:
+
+	```css
+	<script>
+		$('#shyo').shyo();
+	</script>
+	```
+
 ## Customization
 
  You can change the style and duration of your animations in the .shyo and .shyo-up class.
