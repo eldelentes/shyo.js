@@ -1,0 +1,29 @@
+.shyo {
+	position: fixed;
+	width: 100%;
+	-webkit-transition: all 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+   	-moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    -o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+	-webkit-transform-origin: top;
+
+	/* Add your own transition here */	
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-o-transform: translateY(0%);
+	transform: translateY(0%);
+	opacity: 1;
+}
+
+
+.shyo-up {
+	/* This is the style of your header */
+
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
+	opacity: 0;
+}
