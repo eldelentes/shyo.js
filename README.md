@@ -19,7 +19,7 @@ A lightweight javascript plugin for hiding and showing your navigation when scro
 
 ```<header id="shyo" class="main-header shyo" data-scroll="0">```
  
-You may also want to modify the  `data-scroll` to define when de script starts working.
+You may also want to modify the  `data-scroll` to define when de script starts working
 
 3. Activate the script:
 
