@@ -21,7 +21,7 @@ A lightweight javascript plugin for hiding and showing your navigation when scro
  
  You may also want to modify the  `data-scroll` to define when de script starts working.
 
- 3. Activate the script:
+3. Activate the script:
 
 	```css
 	<script>
